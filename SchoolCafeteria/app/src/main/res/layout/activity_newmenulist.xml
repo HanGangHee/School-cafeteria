@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/newMenuIm"
+        />
+    <TextView
+        android:id="@+id/newMenuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#440440"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/newMenuIm"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:id="@+id/newMenuPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#440440"
+        android:layout_toRightOf="@+id/newMenuIm"
+        android:layout_below="@+id/newMenuName"
+        android:padding="3dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#440440"
+        android:textSize="25dp"
+        android:id="@+id/temp"
+        android:layout_marginTop="10dp"
+        android:text="참여 투표수: "
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/newMenuPrice"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#440440"
+        android:textSize="25dp"
+        android:id="@+id/newMenuVote"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/temp"
+        />
+
+</RelativeLayout>

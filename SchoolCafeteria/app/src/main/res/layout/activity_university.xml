@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_university"
+    android:orientation="vertical"
+    android:background="@drawable/asd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.schoolcafeteria.University">
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="학생식당"
+            android:textColor="#130301"
+            android:background="@drawable/aa1"
+            android:textStyle="bold"
+            android:id="@+id/student_ct"
+            android:onClick="onClick"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="120dp"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:text="기숙사식당"
+            android:background="@drawable/aa1"
+            android:textStyle="bold"
+            android:id="@+id/dormitory_ct"
+            android:textColor="#130301"
+            android:textSize="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:onClick="onClick"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:text="교직원식당"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="20dp"
+            android:textColor="#130301"
+            android:textStyle="bold"
+            android:background="@drawable/aa1"
+            android:id="@+id/faculty_ct"
+            android:onClick="onClick"
+            android:layout_height="100dp"
+           />
+
+
+
+        <Button
+            android:layout_width="150dp"
+            android:text="종합관식당"
+            android:textSize="20dp"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:textColor="#130301"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:id="@+id/general_ct"
+            android:background="@drawable/aa1"
+            android:layout_height="100dp"/>
+
+</LinearLayout>

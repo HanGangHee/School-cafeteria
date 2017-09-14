@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="메뉴의 점수는?"/>
+    </TableRow>
+
+    <TableRow>
+        <RatingBar
+            android:id="@+id/person_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="0.5"
+            android:isIndicator="false"
+            style="?android:attr/ratingBarStyleIndicator"
+            />
+
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/aa2"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메뉴 이름"
+        android:textColor="#161616"
+        android:id="@+id/detailNewMenuName"
+        android:textSize="15pt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="141dp"
+            android:layout_height="141dp"
+            android:scaleType="centerInside"
+            android:id="@+id/detailNewMenuImage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#161616"
+            android:layout_marginLeft="15dp"
+            android:text="투표 현황"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#161616"
+            android:layout_marginTop="50dp"
+            android:textSize="35dp"
+            android:id="@+id/detailNewMenuVote"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#161616"
+            android:layout_height="wrap_content"
+            android:text="가격 "/>
+
+        <TextView
+            android:id="@+id/detailNewMenuPrice"
+            android:textColor="#161616"
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="여기다 가격"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="90dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#161616"
+            android:scrollbars="horizontal"
+            android:layout_height="wrap_content"
+            android:text="원산지"/>
+
+        <TextView
+            android:id="@+id/detailNewMenuNative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#161616"
+            android:textSize="30dp"
+            android:text="여기다 원산지"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#161616"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:text="Kcal "/>
+
+        <TextView
+            android:id="@+id/detailNewMenuKcal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#161616"
+            android:text="여기다 Kcal"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5pt"
+            android:background="@android:drawable/progress_horizontal"
+            android:text="메뉴 투표"
+            android:id="@+id/voteMenuBtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:background="@android:drawable/progress_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5pt"
+            android:text="메뉴 삭제"
+            android:id="@+id/deleteNewMenuBtn"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5pt"
+            android:background="@android:drawable/progress_horizontal"
+            android:text="메뉴 수정"
+            android:id="@+id/modifyNewMenuBtn"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
